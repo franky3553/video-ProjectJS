@@ -17,3 +17,11 @@ btn.addEventListener('click', function(){
       video.play();
    }
 })
+
+// preloader selection
+const preloader = document.querySelector(".preloader");
+
+// preloader event
+window.addEventListener('load', function(){
+   preloader.classList.add('hide-preloader');
+});

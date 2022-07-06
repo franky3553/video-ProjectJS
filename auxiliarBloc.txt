@@ -3,3 +3,4 @@ add video buttons
 add js selections
 add switch event
 add play and pause event
+add preloader event
